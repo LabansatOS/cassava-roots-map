@@ -2663,7 +2663,7 @@ const initMap = async () => {
             lng: position.lng(),
           },
           icon: {
-            url: './cluster-icon.svg',
+            url: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='120' width='120'%3E%3Ccircle cx='60px' cy='60px' r='36px' fill='%23FF0000' /%3E%3Ccircle cx='60px' cy='60px' r='42px' fill-opacity='0.8' fill='%23FF0000' /%3E%3Ccircle cx='60px' cy='60px' r='48px' fill-opacity='0.5' fill='%23FF0000' /%3E%3Ccircle cx='60px' cy='60px' r='54px' fill-opacity='0.20' fill='%23FF0000' /%3E%3Ccircle cx='60px' cy='60px' r='60px' fill-opacity='0.20' fill='%23FF0000' /%3E%3C/svg%3E",
             scaledSize: new google.maps.Size(35, 35),
           },
           label: {
